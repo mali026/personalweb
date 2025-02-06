@@ -62,3 +62,95 @@ section {
     font-weight: 900px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.biography{
+    background-image: url("image02/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+.latest{
+    background-image: url("image02/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+.latest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-container img {
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0001;
+    transition: 0.3s;
+}
+
+.work-container img:hover {
+    scale: 1.50;
+}
+.client {
+    background-image: url("image02/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.client-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.client-title {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.client-quote {
+    font-style: italic;
+    font-size: 16px;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.contact-box {
+    background: linear-gradient(45deg, #f03a7a, #e9446a);
+    padding: 15px 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.email {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 12px;
+    color: gray;
+}
